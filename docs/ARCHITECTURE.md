@@ -13,7 +13,7 @@ flowchart TD
     Personalize --> Send[Outlook send]
     Send --> Reconcile[Reconcile send state]
     Reconcile --> Mailbox[Monitor mailbox and replies]
-    Mailbox -->|Reply or opt-out| Stop[Stop follow-ups and update registry]
+    Mailbox -->|Reply| Stop[Stop follow-ups and update registry]
     Mailbox -->|No reply and due| Next[Schedule next follow-up]
     Next --> Campaign
     Registry --> Reporting[SDR workflow and reporting]
