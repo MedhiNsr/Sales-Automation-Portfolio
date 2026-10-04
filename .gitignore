@@ -1,0 +1,39 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Prospect / campaign data
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+logs/
+data/
+
+# Backups / experiments
+*.bak*
+*.backup*
+A_IGNORER_sauvegardes_et_tests/
+
+# Attachments
+*.pdf
+*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
